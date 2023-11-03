@@ -1,0 +1,211 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background image for the hero section */
+#hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+/* Style container for content sections */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Style the call-to-action button */
+.btn {
+    display: inline-block;
+    background-color: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff4015;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.menu-item {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style the contact form */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+#about h2 {
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+#about p {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+}
+
+#menu h2 {
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+.menu-item h3 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.menu-item p {
+    font-size: 1.2em;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-top: 40px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    font-size: 1.1em;
+}
+
+.contact-form .btn {
+    background-color: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-size: 1.2em;
+}
+
+.contact-form .btn:hover {
+    background-color: #ff4015;
+}
+
+@media (max-width: 768px) {
+    .menu-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-item {
+        width: 100%;
+    }
+}
+
+#hero {
+    background-image: url('https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?cs=srgb&dl=appetizer-bowl-delicious-1640772.jpg&fm=jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+footer {
+    background-image: url('https://th.bing.com/th/id/OIP.fBe1gguUHhEyZuradl-J6QAAAA?pid=ImgDet&rs=1');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+#menu{
+    background-color: rgb(191, 201, 201);
+}
+#contact{
+    background-color: rgb(253, 251, 247);
+}
+#about{
+    background-color: rgb(245, 216, 181);
+}
+@keyframes colorBlink {
+    0% {
+        color: #fa0000;
+    }
+    25% {
+        color: #ff00b3;
+    }
+    50% {
+        color: #00ff00;
+    }
+    75% {
+        color: #0000ff;
+    }
+    100% {
+        color: #fa0000;
+    }
+}
